@@ -211,7 +211,7 @@ void updateNotFault(int pid, int pageId) {
         }
     }
 
-    printf("NOT PAGE FAULT: Processo = %d | Pagina = %d \n", pageId, pid);
+    printf("NOT PAGE FAULT: Processo = %d | Pagina = %d \n", pid, pageId);
     printf("Sem substituição! \n");
 }
 
